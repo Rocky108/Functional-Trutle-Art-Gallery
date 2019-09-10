@@ -5,4 +5,4 @@ Tron he fights for the users to save the **Grid** and take down the **Master Con
 - [x] Find the Solar Sailor
 - [ ] Take down the **MCP**
 
-![Tron](\Tron.PNG)
+![Tron](/Tron.PNG)
