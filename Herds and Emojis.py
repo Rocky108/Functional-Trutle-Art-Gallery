@@ -1,0 +1,78 @@
+import turtle
+
+dougall = turtle.Turtle()
+dante = turtle.Turtle()
+dunkin = turtle.Turtle()
+draco = turtle.Turtle()
+
+dougall.pu()
+dougall.right(90)
+dougall.forward(300)
+dougall.left(90)
+dougall.pd()
+dougall.fillcolor("Yellow")
+dougall.begin_fill()
+dougall.circle(300)
+dougall.end_fill()
+dougall.left(90)
+dougall.pu()
+dougall.forward(300)
+dougall.right(90)
+dougall.pd()
+dougall.right(45)
+dougall.backward(20)
+dougall.forward(40)
+dougall.right(135)
+dougall.forward(20)
+
+dante.pu()
+dante.color("darkred")
+dante.forward(100)
+dante.pd()
+dante.left(90)
+dante.forward(200)
+
+draco.pu()
+draco.color("darkgreen")
+draco.right(90)
+draco.forward(75)
+draco.right(90)
+draco.forward(175)
+draco.left(90)
+
+def smile():
+    for i in range(1,20):
+        draco.forward(30)
+        draco.left(10)
+draco.pd()
+smile()
+
+dunkin.color("orangered")
+dunkin.pu()
+dunkin.left(180)
+dunkin.forward(100)
+dunkin.right(90)
+dunkin.pd()
+dunkin.forward(200)
+
+dante.pu()
+dante.right(180)
+dante.forward(428)
+dante.pd()
+dante.left(70)
+def tounge():
+    for i in range(1,10):
+        dante.forward(20)
+        dante.left(20)
+
+tounge()
+
+dante.pu()
+dougall.pu()
+draco.pu()
+dunkin.pu()
+dante.goto(-450,100)
+dougall.goto(-450,100)
+draco.goto(-450,100)
+dunkin.goto(-450,100)
+turtle.exitonclick()
